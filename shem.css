@@ -1,0 +1,100 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url('bckgrnd.jpg') center/cover no-repeat fixed;
+}
+
+.nav-buttons {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.nav-button {
+    background-color: #555;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.hero-section {
+    background: url('bg.jpg') center/cover no-repeat fixed;
+    text-align: center;
+    color: rgba(13, 29, 94, 0.99);
+    padding: 310px 400px; /* Adjust padding as needed */
+    background-color: transparent;
+    position: relative;
+}
+
+.top-left-text {
+    position: absolute;
+    top: 20px;
+    left: 28%;
+    transform: translateX(-50%);
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.strand-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+}
+
+
+
+.strand-item {
+    max-width: 200px;
+    margin: 10px;
+    border-radius: 80%;
+}
+
+.strand-description {
+    font-size: 30px;
+    color:white;
+    margin-top: 10px; /* Adjust the margin as needed */
+    max-width: 400px; /* Set a maximum width for the description */
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+section {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 350px;
+    backdrop-filter: blur(10px);
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+p {
+    color: white;
+}
+/* Responsive Design */
+@media only screen and (max-width: 600px) {
+    section {
+        margin: 10px;
+        padding: 10px;
+    }
+
+    .hero-section {
+        padding: 50px 10px;
+    }
+}

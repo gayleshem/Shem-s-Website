@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>School Website</title>
+    <link rel="stylesheet" href="shem.css"
+</head>
+<body>
+
+    <section id="main" class="hero-section">
+        <div class="nav-buttons">
+            <button class="nav-button" onclick="scrollToSection('main')">Home</button>
+            <button class="nav-button" onclick="scrollToSection('about')">About</button>
+            <button class="nav-button" onclick="scrollToSection('contacts')">Contacts</button>
+            <button class="nav-button" onclick="scrollToSection('strands')">Strands</button>
+            <button class="nav-button" onclick="scrollToSection('events')">Events</button>
+        </div>
+
+        <div class="top-left-text">Rosales National High School-Senior High School</div>
+
+        <h2>Welcome to Our School</h2>
+        <p>Empowering students for a brighter future.</p>
+    </section>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <p>Rosales National High School is a prominent educational institution known for its commitment to academic excellence and holistic development. Located in Rosales, Pangasinan, it has established itself as a cornerstone of education in the community. The school boasts a dedicated faculty, modern facilities, and a diverse range of academic programs catering to students' varied interests and talents. With a focus on cultivating well-rounded individuals, Rosales National High School actively promotes extracurricular activities, fostering a vibrant environment that nurtures not only intellectual growth but also social and personal development. It stands as a symbol of educational progress, shaping the future of its students and contributing significantly to the educational landscape in the region.</p>
+    </section>
+
+    <section id="contacts">
+        <h2>Contacts</h2>
+        <p>Email: info@ourschool.com</p>
+        <p>Phone: +1 (123) 456-7890</p>
+        <p>Address: 123 School Street, Cityville</p>
+    </section>
+
+    <section id="strands">
+        <h2>Strands</h2>
+        <div class="strand-gallery">
+            <div class="strand-row">
+                <div class="strand-item">
+                    <img src="STEM.jpg" alt="Strand 1" class="strand-item">
+                    <p class="strand-description">STEM</p>
+                    <p>Science, Technology, Engineering, and Mathematics (STEM) will nurture students’ ability to gauge from simple to complex problems of the society and how these learners are responsive and active in designing its solutions through researches as to apply and integrate scientific, technological, engineering, and mathematical ideas. STEM strands will also prepare learners for college degrees that focus on the perplexity of the intrinsic world making them the future scientists, experts in technological advancement, engineers, mathematicians and so on.  
+                    </p>
+                </div>
+                <div class="strand-item">
+                    <img src="HUMSS.jpg" alt="Strand 2" class="strand-item">
+                    <p class="strand-description">HUMSS</p>
+                    <p>The Humanities and Social Sciences (HUMSS) strand covers topics in the liberal arts, training students to think, write, and speak about various humanistic and societal concerns. Students taking up this strand undergo classes designed to hone the mind, improve social skills, introduce cultural and linguistic diversity, and multi-disciplinary critical thinking. T.I.P. HUMSS paves the way for those looking to take up higher education in the arts, political science, literature, anthropology, philosophy, linguistics, communication, psychology, and other related fields. </p>
+                </div>
+                <div class="strand-item">
+                    <img src="ABM.jpg" alt="Strand 3" class="strand-item">
+                    <p class="strand-description">ABM</p>
+                    <p>The Accountancy, Business, and Management Strand offers students the fundamentals of business in the 21st-century era. This strand will unmask the different theories, perceptions, and concepts in business, accountancy, marketing, advertising, and entrepreneurship to prepare the learners for real-life situations and further studies.
+                        Moreover, the ABM strand aims to impart analytical and practical knowledge to learners which will help them prepare for the challenges of the fast-changing business world.</p>
+                </div>
+                <div class="strand-item">
+                    <img src="TVL.jpg" alt="Strand 4" class="strand-item">
+                    <p class="strand-description">TVL</p>
+                    <p>The Home Economics track offers various specializations that can lead to livelihood projects at home. This strand aims to give you job-ready skills that can help you in finding the right employment.This is our classic idea of the TLE subject. Those who are interested in housekeeping, tailoring, care giving, food and beverage services, bread and pastry services, tourism and handicrafts should take this.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="events">
+        <h2>Events</h2>
+        <h3>Upcoming Events</h3>
+        <ul>
+            <li>Event 1 - Date</li>
+            <li>Event 2 - Date</li>
+        </ul>
+        <h3>Past Events</h3>
+        <ul>
+            <li>Event A - Date</li>
+            <li>Event B - Date</li>
+        </ul>
+    </section>
+
+    <footer>
+        &copy; 2024 Our School. All rights reserved.
+    </footer>
+
+    <script>
+        function scrollToSection(sectionId) {
+            document.getElementById(sectionId).scrollIntoView({ behavior: 'smooth' });
+        }
+    </script>
+
+</body>
+</html>
